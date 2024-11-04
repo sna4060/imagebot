@@ -6,7 +6,7 @@ from PIL import Image
  
 load_dotenv()
  
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key="AIzaSyClHTslp42zq8bI8sz2HYRT87Mb-MV2ElI")
  
 st.set_page_config(page_title="Image Chat Bot",page_icon="🗣️")
  
